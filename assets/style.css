@@ -30,7 +30,28 @@ header h1 {
 }
 
 /* Game selection area */
+section.game-selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 25px 25px;
+}
 
+.game-selector div {
+    margin: 25px;
+}
+
+a img {
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+#spock {
+    background-image: url(../assets/images/background.png);
+}
 
 /* Footer section */
 footer {
