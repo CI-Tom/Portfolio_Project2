@@ -1,1 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Peralta&display=swap');
+
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Peralta', cursive, sans-serif;
+    margin-bottom: 100px;
+    background: black;
+}
+
+/* Header section */
+header {
+    height: 100px;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Bungee Spice', cursive, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game selection area */
+
+
+/* Footer section */
+footer {
+    background-image: url(../assets/images/footer_background.png);
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer div {
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: black;
+    margin: 10px 25px;
+    padding-top: 10px;
+}
