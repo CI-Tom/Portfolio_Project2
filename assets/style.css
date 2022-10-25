@@ -104,13 +104,23 @@ section h1 {
 .game-tile {
     width: 165px;
     height: 165px;
-    border: 2px solid;
+    border: 4px solid;
+    border-top: transparent;
+    border-right: transparent;
     color: white;
     cursor: pointer;
     font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#tile0, #tile3, #tile6 {
+    border-left: transparent;
+}
+
+#tile6, #tile7, #tile8 {
+    border-bottom: transparent;
 }
 
 #game-area {
