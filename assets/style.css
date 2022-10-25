@@ -92,7 +92,7 @@ footer a {
 
 /* Game1 area (Tic Tac Toe) */
 .tictactoe {
-    height: 80vh;
+    height: 85vh;
     margin: 25px 25px;
 }
 
@@ -122,11 +122,15 @@ section h1 {
     align-items: center;
 }
 
-#tile0, #tile3, #tile6 {
+#tile0,
+#tile3,
+#tile6 {
     border-left: transparent;
 }
 
-#tile6, #tile7, #tile8 {
+#tile6,
+#tile7,
+#tile8 {
     border-bottom: transparent;
 }
 
@@ -142,7 +146,8 @@ section h1 {
     text-align: center;
 }
 
-#restart {
+#restart,
+#new-game {
     font-family: 'Bungee Spice', cursive, sans-serif;
     font-size: 28px;
     background-color: transparent;
