@@ -91,11 +91,26 @@ footer a {
 }
 
 /* Game1 area (Tic Tac Toe) */
+section h1 {
+    font-size: 48px;
+    margin: 10px;
+}
+
+#score-area {
+    font-size: 36px;
+    margin: 10px;
+}
+
 .game-tile {
     width: 165px;
     height: 165px;
     border: 2px solid;
     color: white;
+    cursor: pointer;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #game-area {
@@ -103,4 +118,8 @@ footer a {
     grid-template-columns: repeat(3, auto);
     width: 500px;
     margin: auto;
+}
+
+.tictactoe {
+    text-align: center;
 }
