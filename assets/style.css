@@ -89,3 +89,18 @@ footer a {
     margin: 10px 25px;
     padding-top: 10px;
 }
+
+/* Game1 area (Tic Tac Toe) */
+.game-tile {
+    width: 165px;
+    height: 165px;
+    border: 2px solid;
+    color: white;
+}
+
+#game-area {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 500px;
+    margin: auto;
+}
