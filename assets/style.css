@@ -131,6 +131,7 @@ section h1 {
 }
 
 #game-area {
+    font-family: 'Bungee Spice', cursive, sans-serif;
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 500px;
@@ -139,4 +140,11 @@ section h1 {
 
 .tictactoe {
     text-align: center;
+}
+
+#restart {
+    font-family: 'Bungee Spice', cursive, sans-serif;
+    font-size: 28px;
+    background-color: transparent;
+    cursor: pointer;
 }
