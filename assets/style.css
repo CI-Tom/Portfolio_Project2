@@ -91,14 +91,21 @@ footer a {
 }
 
 /* Game1 area (Tic Tac Toe) */
+.tictactoe {
+    height: 80vh;
+    margin: 25px 25px;
+}
+
 section h1 {
     font-size: 48px;
     margin: 10px;
+    letter-spacing: 2px;
 }
 
 #score-area {
     font-size: 36px;
     margin: 10px;
+    letter-spacing: 2px;
 }
 
 .game-tile {
