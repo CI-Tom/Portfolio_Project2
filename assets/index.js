@@ -25,4 +25,18 @@ function tileClicked(player) {
     }
 }
 
+// Add event listener for click on New Game button
+newGame.addEventListener('click', restart)
+
+// Create function to clear the array and text for each tile and reset current player to default when New Game button clicked
+function restart() {
+    freeTiles.fill(null)
+
+    tiles.forEach(tile => {
+        tile.innerText = ''
+    })
+
+    currentPlayer = textPlayerX
+}
+
 gameStart();
