@@ -1,4 +1,4 @@
-// Declaring variables to be used in game
+// Declaring constants to be used in game
 const playerTurn = document.getElementById('player-turn')
 const newGame = document.getElementById('restart')
 const tiles = Array.from(document.getElementsByClassName('tile'))
@@ -10,7 +10,7 @@ const gameStart = () => {
 }
 
 
-// Create an empty array to be filled by current player when clicked
+// Declare variables and create an empty array consisting of each tile on the Tic Tac Toe board
 let currentPlayer = textPlayerX
 let freeTiles = Array(9).fill(null)
 
