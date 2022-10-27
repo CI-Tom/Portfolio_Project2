@@ -36,7 +36,7 @@ section.game-selector {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    min-height: 75vh;
     margin: 25px 25px;
 }
 
@@ -92,7 +92,7 @@ footer a {
 
 /* Game1 area (Tic Tac Toe) */
 .tictactoe {
-    height: 85vh;
+    min-height: 85vh;
     margin: 25px 25px;
 }
 
