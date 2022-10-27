@@ -151,5 +151,9 @@ section h1 {
     font-family: 'Bungee Spice', cursive, sans-serif;
     font-size: 28px;
     background-color: transparent;
+}
+
+#restart:hover, #new-game:hover {
     cursor: pointer;
+    transform: translateY(2px);
 }
