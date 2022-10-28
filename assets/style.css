@@ -46,7 +46,6 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* position: absolute; */
 }
 
 footer div {
@@ -119,6 +118,8 @@ footer a {
     margin-bottom: 50px;
 }
 
+
+/* Reset or Start a new game */
 #reset {
     font-family: 'Bungee Spice', cursive, sans-serif;
     font-size: 28px;
@@ -128,4 +129,37 @@ footer a {
 #reset:hover {
     cursor: pointer;
     transform: translateY(2px);
+}
+
+/* Media queries */
+@media screen and (max-width: 570px) {
+    footer div {
+        font-size: 16px;
+        margin: 0 10px;
+        letter-spacing: 1px;
+    }
+
+    footer a {
+        margin: 0 10px;
+    }
+
+    .tile {
+        width: 120px;
+        height: 120px;
+        border: 2px solid;
+        font-size: 90px;
+    }
+
+    #tiles {
+        width: 360px;
+        padding: 10px;
+    }
+
+    #tile0, #tile1, #tile2 {
+        border-top: transparent;
+    }
+
+    #tile2, #tile5, #tile8 {
+        border-right: transparent;
+    }
 }
