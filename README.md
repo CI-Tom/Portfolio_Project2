@@ -7,7 +7,7 @@ The game starts with player X always having the first turn.
 Users must decide themselves who will be player X and who is PLayer O.
 When player X is reeady, the game is started by clicking on a cell in the grid.
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/images/mockup.png)
 
 ## Features 
 
