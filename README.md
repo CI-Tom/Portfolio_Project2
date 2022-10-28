@@ -53,9 +53,9 @@ This website is designed using HTML, CSS and JavaScript and allows two players t
 
 ## Testing 
 
-The site was tested using the Chrome in-built developer features and also tested on a Samsung Galaxy Tab A7 and iPhone 8 plus. Tested the website on multiple browsers also, including Chrome, Edge, Firfox, Brave.
+The site was tested using the Chrome in-built developer features on a desktop and also tested on a 17 inch laptop and a Samsung Galaxy Tab A7 and iPhone 8 plus. Tested the website on multiple browsers also, including Chrome, Edge, Firfox, Brave.
 
-The website looks the same on all browsers used for testing but starts to break down when screen width goes below 570px.
+The website looks the same on all browsers used for testing but starts to break down when screen width goes below 570px. Added media query in style.css for width below 570px.
 
 ### Validator Testing 
 
