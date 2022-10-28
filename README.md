@@ -1,78 +1,55 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# Play Classic Games
+# Play Tic Tac Toe
 
-This website is designed for users with an interest in classic games.
-The site allows the user to choose from a selection of three games - X's & O's, Sports Quiz or Rock Paper Scissors Lizard Spock.
+This website allows two freinds to play a game of Tic Tac Toe against each other.
+The game starts with player X always having the first turn.
 
-When arriving at the site landing page, the user is presented with three clickable images. Clicking on any of the images takes the user to the relevant game section.
-Here, the user is presented with the options to read the game rules or just start a new game.
+Users must decide themselves who will be player X and who is PLayer O.
+When player X is reeady, the game is started by clicking on a cell in the grid.
 
-Each game consists of the main game area with a live score underneath and a 'Start New Game' button.
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is designed using HTML, CSS and JavaScript and allows two players to compete against each other in a game of Tic Tac Toe.
 
 ### Existing Features
 
-- __Navigation Bar__
+- __HEADER__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The header is designed using the Google Font 'Bungee Spice' with a transparent background to allow the HTML black background be visible.
+  - This font gives the impression of a retro style game and the contrast between the font's bright colours and black background make the heading stand out.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Header](assets/images/header.png)
 
-- __The landing page image__
+- __The Game Area__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - This area allows the users to play the game. Users must decide who is player X and who is player O before starting as the default starting player is always player X. 
+  - A message is shown below the main game board that show's who's turn it is next.
+  - When a player wins, the message displays a message showing which player has won. In the event of a tie, the message displays the text 'Draw'.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Game Area](assets/images/gameArea.png)
 
-- __Club Ethos Section__
+- __Restart Game__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - There is a button below the message area that allows users to restart the game on completion.
+  - The button is styled using the same theme as the header and there is a hover effect that changes the cursor to a pointer.
+  - The transform method is used to give the effect that the button jumps slightly when hovered over.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+    ![Restart Button](assets/images/restartButton.png)
 
-- __Meetup Times section__
+- __Future Features to Implement__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- A score area to keep track of each player's number of games won.
+- More games
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for. The links will open to a new tab to allow easy navigation for the user. 
+  - The styling follows a similar theme to the header but in reverse. I used the color picker in MS paint and took the colors from the 'Bungee Spice' font and madde a background that transitions between those two colors.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
+![Footer](assets/images/footer.png)
 
 ## Testing 
 
