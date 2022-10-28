@@ -28,19 +28,25 @@ header {
     margin: 50px 0;
 }
 
+h1 {
+    font-family: 'Bungee Spice', cursive, sans-serif;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
 /* Footer section */
 footer {
     background-image: url(../assets/images/footer_background.png);
     min-height: 80px;
     padding-top: 5px;
     width: 100%;
-    left: 0%;
+    left: 0;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */
 }
 
 footer div {
@@ -66,19 +72,13 @@ footer a {
 }
 
 /* Tic Tac Toe game area */
-.tictactoe {
+#game-area {
     min-height: 75vh;
     margin: 0 auto;
     text-align: center;
 }
 
-h1 {
-    font-family: 'Bungee Spice', cursive, sans-serif;
-    font-size: 48px;
-    margin-bottom: 30px;
-}
-
-#winner-text {
+#message {
     font-size: 36px;
     margin: 10px;
     letter-spacing: 2px;
@@ -110,7 +110,7 @@ h1 {
     border-bottom: transparent;
 }
 
-#game-area {
+#tiles {
     font-family: 'Bungee Spice', cursive, sans-serif;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -119,23 +119,13 @@ h1 {
     margin-bottom: 50px;
 }
 
-.tictactoe {
-    text-align: center;
-}
-
-#restart,
-#change-game {
+#reset {
     font-family: 'Bungee Spice', cursive, sans-serif;
     font-size: 28px;
     background-color: transparent;
 }
 
-#change-game {
-    margin-bottom: 50px;
-}
-
-#restart:hover,
-#change-game:hover {
+#reset:hover {
     cursor: pointer;
     transform: translateY(2px);
 }

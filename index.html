@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mini games website" />
-    <meta name="keywords" content="tic tac toe, x's and o's, quiz, sports, sports quiz, rock paper scissors, games," />
+    <title>Tic Tac Toe</title>
+
+    <!-- Link to favicon image for title bar -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Font Awesome script -->
     <script src="https://kit.fontawesome.com/e2f8978e57.js" crossorigin="anonymous"></script>
-
-    <!-- Free icon taken from https://www.favicon.cc/?action=icon&file_id=99873 -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico"/>
-
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="assets/style.css" />
-
-    <title>Tic Tac Toe</title>
-</head>
-
-<body>
-
+  </head>
+  <body>
     <header>
-        <h1 id="heading">Play Tic Tac Toe</h1>
+        <h1 class="heading">Tic Tac Toe</h1>
     </header>
-
-    <div class="tictactoe">
-        <div id="game-area">
-            <div cellIndex="0" class="tile" id="tile0"></div>
-            <div cellIndex="1" class="tile" id="tile1"></div>
-            <div cellIndex="2" class="tile" id="tile2"></div>
-            <div cellIndex="3" class="tile" id="tile3"></div>
-            <div cellIndex="4" class="tile" id="tile4"></div>
-            <div cellIndex="5" class="tile" id="tile5"></div>
-            <div cellIndex="6" class="tile" id="tile6"></div>
-            <div cellIndex="7" class="tile" id="tile7"></div>
-            <div cellIndex="8" class="tile" id="tile8"></div>
-        </div>
-        <h2 id="winner-text"></h2>
-        <button id="restart">PLAY AGAIN</button>
-        <p>OR</p><a href="#heading"><button id="change-game">Choose A New Game</button></a>
+    <div id="game-area">
+      <div id="tiles">
+        <div cellIndex="0" class="tile" id="tile0"></div>
+        <div cellIndex="1" class="tile" id="tile1"></div>
+        <div cellIndex="2" class="tile" id="tile2"></div>
+        <div cellIndex="3" class="tile" id="tile3"></div>
+        <div cellIndex="4" class="tile" id="tile4"></div>
+        <div cellIndex="5" class="tile" id="tile5"></div>
+        <div cellIndex="6" class="tile" id="tile6"></div>
+        <div cellIndex="7" class="tile" id="tile7"></div>
+        <div cellIndex="8" class="tile" id="tile8"></div>
+      </div>
+      <h2 id="message"></h2>
+      <button id="reset">RESTART</button>
     </div>
 
     <!-- Footer Section -->
     <footer class="footer-container">
-        <div>Mini-Games 2022 &copy; Tom Manahan</div>
-        <div id="social-links">
-            <a href="https://www.linkedin.com/in/tom-mana" target="_blank"><i
-                    class="fa-brands fa-linkedin fa-xl"></i></a>
-            <a href="https://github.com/CI-Tom" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter fa-xl"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
-            <a href="https://www.twitch.tv" target="_blank"><i class="fa-brands fa-twitch fa-xl"></i></a>
-        </div>
+      <div>Tic Tac Toe 2022 &copy; Tom Manahan</div>
+      <div id="social-links">
+        <a href="https://www.linkedin.com/in/tom-mana" target="_blank"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a href="https://github.com/CI-Tom" target="_blank"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fa-brands fa-facebook fa-xl"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fa-brands fa-square-twitter fa-xl"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fa-brands fa-youtube fa-xl"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fa-brands fa-square-instagram fa-xl"></i
+        ></a>
+        <a href="https://www.twitch.tv" target="_blank"
+          ><i class="fa-brands fa-twitch fa-xl"></i
+        ></a>
+      </div>
     </footer>
 
-    <!-- Link to JavaScript -->
+    <!-- Link to JavaScript file -->
     <script src="assets/index.js"></script>
-</body>
-
+  </body>
 </html>
