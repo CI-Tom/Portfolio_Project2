@@ -7,65 +7,39 @@
     box-sizing: border-box;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     font-family: 'Peralta', cursive, sans-serif;
     color: white;
-    margin-bottom: 100px;
-    background: black;
+    background-color: black;
 }
 
 /* Header section */
 header {
-    height: 100px;
-    width: 100%;
-}
-
-header h1 {
     font-family: 'Bungee Spice', cursive, sans-serif;
-    font-size: 48px;
     text-align: center;
+    height: 50px;
+    font-size: 75%;
     letter-spacing: 2px;
-    padding: 20px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Game selection area */
-section.game-selector {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 75vh;
-    margin: 25px 25px;
-}
-
-.game-selector div {
-    margin: 25px;
-}
-
-a img {
-    border-radius: 20px;
-    height: 500px;
-    width: 500px;
-}
-
-#spock {
-    background-image: url(../assets/images/background.png);
+    margin: 50px 0;
 }
 
 /* Footer section */
 footer {
     background-image: url(../assets/images/footer_background.png);
-    height: 100px;
+    min-height: 80px;
     width: 100%;
+    left: 0%;
     bottom: 0;
-    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: absolute;
 }
 
 footer div {
@@ -91,19 +65,19 @@ footer a {
     padding-top: 10px;
 }
 
-/* Game1 area (Tic Tac Toe) */
+/* Tic Tac Toe game area */
 .tictactoe {
-    min-height: 85vh;
-    margin: 25px 25px;
+    min-height: 75vh;
+    margin: 0 auto;
 }
 
-section h1 {
+h1 {
+    font-family: 'Bungee Spice', cursive, sans-serif;
     font-size: 48px;
-    margin: 10px;
-    letter-spacing: 2px;
+    margin-bottom: 30px;
 }
 
-#score-area {
+#winner-text {
     font-size: 36px;
     margin: 10px;
     letter-spacing: 2px;
@@ -141,6 +115,7 @@ section h1 {
     grid-template-columns: repeat(3, auto);
     width: 500px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .tictactoe {
@@ -148,14 +123,18 @@ section h1 {
 }
 
 #restart,
-#new-game {
+#change-game {
     font-family: 'Bungee Spice', cursive, sans-serif;
     font-size: 28px;
     background-color: transparent;
 }
 
+#change-game {
+    margin-bottom: 50px;
+}
+
 #restart:hover,
-#new-game:hover {
+#change-game:hover {
     cursor: pointer;
     transform: translateY(2px);
 }

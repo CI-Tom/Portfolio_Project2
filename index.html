@@ -11,47 +11,22 @@
     <!-- Font Awesome script -->
     <script src="https://kit.fontawesome.com/e2f8978e57.js" crossorigin="anonymous"></script>
 
-    <!-- Link to favicon for title bar -->
-    <link rel="shortcut icon" href="assets/images/Football.ico" />
+    <!-- Free icon taken from https://www.favicon.cc/?action=icon&file_id=99873 -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico"/>
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="assets/style.css" />
 
-    <title>Mini Games</title>
+    <title>Tic Tac Toe</title>
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header id=>
-        <h1 id="heading">Welcome! Please Choose A Game</h1>
+
+    <header>
+        <h1 id="heading">Play Tic Tac Toe</h1>
     </header>
 
-    <!-- Game Selection Area -->
-    <section class="game-selector">
-        <a href="#game-area">
-            <div>
-                <img src="assets/images/tictactoe.png" alt="Tic Tac Toe game selctor image" />
-            </div>
-        </a>
-
-        <a href="#">
-            <div>
-                <img id="spock" src="assets/images/PaperRockScisorsSpockLizard.png"
-                    alt="Paper Rock Scissors Lizard Spock game selector image" />
-            </div>
-        </a>
-
-        <a href="#">
-            <div>
-                <img src="assets/images/sports-quiz.png" alt="Sports Quiz game selector image" />
-            </div>
-        </a>
-    </section>
-
-    <section class="tictactoe">
-        <div>
-            <h1 id="winner-text">Tic Tac Toe</h1>
-        </div>
+    <div class="tictactoe">
         <div id="game-area">
             <div cellIndex="0" class="tile" id="tile0"></div>
             <div cellIndex="1" class="tile" id="tile1"></div>
@@ -63,10 +38,10 @@
             <div cellIndex="7" class="tile" id="tile7"></div>
             <div cellIndex="8" class="tile" id="tile8"></div>
         </div>
-        <div id="score-area">X : 0 | 0 : O</div>
+        <h2 id="winner-text"></h2>
         <button id="restart">PLAY AGAIN</button>
-        <p>OR</p><a href="#heading"><button id="new-game">Choose A New Game</button></a>
-    </section>
+        <p>OR</p><a href="#heading"><button id="change-game">Choose A New Game</button></a>
+    </div>
 
     <!-- Footer Section -->
     <footer class="footer-container">
