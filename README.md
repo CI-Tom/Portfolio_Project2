@@ -81,16 +81,14 @@ The live link can be found here - https://ci-tom.github.io/Portfolio_Project2/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+The idea to create a Tic Tac Toe game came from multiple YouTube videos.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The basic design was taken from the YouTube channel [JavaScript Academy](https://youtu.be/B3pmT7Cpi24) and adapted for this project
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fucntion for updating a cell when clicked was taken from YouTube channel [Bro Code](https://youtu.be/AnmwHjpEhtA).
 
 ### Media
 
-- All media on the website is my own
+- All media except for the Font Awsome icons is my own.

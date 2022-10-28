@@ -155,11 +155,15 @@ footer a {
         padding: 10px;
     }
 
-    #tile0, #tile1, #tile2 {
+    #tile0,
+    #tile1,
+    #tile2 {
         border-top: transparent;
     }
 
-    #tile2, #tile5, #tile8 {
+    #tile2,
+    #tile5,
+    #tile8 {
         border-right: transparent;
     }
 }

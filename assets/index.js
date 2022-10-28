@@ -2,7 +2,7 @@ const boxes = document.querySelectorAll(".tile");
 const messages = document.querySelector("#message");
 const resetBtn = document.querySelector("#reset");
 
-let cells = ["", "", "", "", "", "", "", "", "",];
+let cells = ["", "", "", "", "", "", "", "", "", ];
 let currentPlayer = "X";
 let gameRunning = false;
 
@@ -44,7 +44,7 @@ function updateTile(tile, index) {
 
 function changePlayer() {
     currentPlayer = (currentPlayer == "X") ? "O" : "X";
-    messages.textContent = `${currentPlayer}'s turn`; 
+    messages.textContent = `${currentPlayer}'s turn`;
 };
 
 function updateWinner() {
@@ -68,12 +68,10 @@ function updateWinner() {
     if (winner) {
         messages.textContent = `${currentPlayer} wins!`;
         gameRunning = false;
-    }
-    else if (!cells.includes("")) {
+    } else if (!cells.includes("")) {
         messages.textContent = `Draw!`;
         gameRunning = false;
-    }
-    else {
+    } else {
         changePlayer();
     }
 };
