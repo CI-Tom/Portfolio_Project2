@@ -60,13 +60,13 @@ The website looks the same on all browsers used for testing but starts to break 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  -  One error was returned for each of the nine cells when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-tom.github.io%2FPortfolio_Project2%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator$link)
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fci-tom.github.io%2FPortfolio_Project2%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Could not fix the errors returned by W3C HTML validator website. When changing or removing the 'cellIndex' attribute, the game stops working.
 
 ## Deployment
 
